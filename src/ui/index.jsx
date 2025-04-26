@@ -18,3 +18,4 @@ addOnUISdk.ready.then(async () => {
     const root = createRoot(document.getElementById("root"));
     root.render(<App addOnUISdk={addOnUISdk} sandboxProxy={sandboxProxy} />);
 });
+

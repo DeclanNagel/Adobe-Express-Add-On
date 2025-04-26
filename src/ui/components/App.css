@@ -1,5 +1,116 @@
 .container {
-    margin: 24px;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Helvetica Neue', sans-serif;
+  }
+  
+  .logo {
+    font-size: 2rem; /* slightly smaller */
+    font-weight: bold;
+    background: linear-gradient(90deg, #4b0082, #2e0854); /* deeper, darker purple gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 0px 3px rgba(75, 0, 130, 0.5); /* softer dark glow */
+    margin-bottom: 10px;
+    white-space: nowrap; /* force single line */
+    text-align: center;
+    display: block;
+  }   
+  
+  .motto {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .button-group {
     display: flex;
     flex-direction: column;
-}
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .upload-button, .action-button {
+    background: none;
+    border: 2px solid #800000;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #800000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .upload-button:hover, .action-button:hover {
+    background: #ffe6e6;
+  }
+  
+  .button-icon {
+    font-size: 1.2rem;
+  }
+  
+  .uploading-text {
+    font-size: 0.9rem;
+    color: #888;
+    margin-bottom: 10px;
+  }
+  
+  .preview {
+    width: 90%;
+    max-height: 200px;
+    object-fit: cover;
+    margin: 10px auto;
+    border-radius: 10px;
+  }
+  
+  .ai-meter {
+    margin-top: 30px;
+  }
+  
+  .ai-text {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .progress-bar {
+    background: #e0e0e0;
+    width: 90%;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 auto 8px;
+  }
+  
+  .progress {
+    background: linear-gradient(90deg, #16a34a, #22c55e);
+    height: 100%;
+    transition: width 0.5s ease-in-out;
+  }
+  
+  .score-text {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+  

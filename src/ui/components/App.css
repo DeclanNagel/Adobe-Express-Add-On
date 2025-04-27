@@ -1,103 +1,106 @@
-.container {
-    text-align: center;
+.app-container {
     padding: 20px;
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Adobe Clean', sans-serif;
+    color: #333;
   }
   
-  .logo {
-    font-size: 2rem; /* slightly smaller */
-    font-weight: bold;
-    background: linear-gradient(90deg, #4b0082, #2e0854); /* deeper, darker purple gradient */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-shadow: 0px 0px 3px rgba(75, 0, 130, 0.5); /* softer dark glow */
-    margin-bottom: 10px;
-    white-space: nowrap; /* force single line */
+  .header {
     text-align: center;
-    display: block;
-  }   
+    margin-bottom: 20px;
+  }
   
-  .motto {
-    font-style: italic;
-    color: #555;
-    margin-bottom: 30px;
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .subtitle {
+    font-size: 16px;
+    color: #666;
+    margin-top: 5px;
   }
   
   .button-group {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 12px;
+    align-items: center;
     margin-bottom: 30px;
   }
   
   .upload-button, .action-button {
-    background: none;
-    border: 2px solid #800000;
-    border-radius: 10px;
-    padding: 10px 15px;
-    font-size: 1rem;
-    font-weight: bold;
-    color: #800000;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 8px;
-    transition: all 0.3s ease;
-    cursor: pointer;
+    background: white;
+    border: 1px solid #c6c6c6;
+    padding: 10px 20px;
+    border-radius: 6px;
     width: 90%;
-    margin: 0 auto;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.2s, box-shadow 0.2s;
+    text-align: center;
+    box-sizing: border-box; /* <- THIS FIXES IT! */
   }
   
   .upload-button:hover, .action-button:hover {
-    background: #ffe6e6;
+    background: #f5f5f5;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   }
   
-  .button-icon {
-    font-size: 1.2rem;
+  input[type="file"] {
+    display: none;
   }
   
-  .uploading-text {
-    font-size: 0.9rem;
-    color: #888;
-    margin-bottom: 10px;
+  .preview-image, .preview-video {
+    margin-top: 8px;
+    max-width: 90%;
+    border-radius: 4px;
   }
   
-  .preview {
-    width: 90%;
-    max-height: 200px;
-    object-fit: cover;
-    margin: 10px auto;
-    border-radius: 10px;
+  .icon {
+    font-size: 16px;
   }
   
   .ai-meter {
     margin-top: 30px;
+    text-align: center;
   }
   
-  .ai-text {
+  .meter-label {
     font-weight: bold;
     margin-bottom: 5px;
   }
   
-  .progress-bar {
-    background: #e0e0e0;
+  .meter-bar {
     width: 90%;
-    height: 20px;
-    border-radius: 10px;
-    overflow: hidden;
+    background: #eee;
+    height: 10px;
+    border-radius: 5px;
     margin: 0 auto 8px;
+    overflow: hidden;
   }
   
-  .progress {
+  .meter-progress {
     background: linear-gradient(90deg, #16a34a, #22c55e);
     height: 100%;
-    transition: width 0.5s ease-in-out;
+    width: 0;
+    transition: width 0.5s ease;
   }
   
-  .score-text {
-    font-size: 0.9rem;
-    font-weight: 500;
+  .meter-score {
+    font-size: 14px;
   }
+  
+  
+  
+  
+  
+  
+  
   
   
   

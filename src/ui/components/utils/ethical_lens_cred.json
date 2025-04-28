@@ -1,0 +1,14 @@
+{
+    "type": "service_account",
+    "project_id": "ethical-lens-scanner",
+    "private_key_id": "ef13979e799d5f866265c91f56553da8eb67a421",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC5nssekBjsaYM6\noaCgU1w22/J6ap4188INZGhYAZAT7JBYmyYq1/m03aRzLHOK7fGdqSkMMPW49k0t\nH6ZjRJgcuK71HGg1lhpDqavGZyH424cqEzcHqrJPYs9ynbreOpbCsrC5AaGqTcRE\nFVje9ciLF57pBnSk3edZmjOBG/eizexKxZI97RFBFhK6v3sl4NSkPk4QySqWo5Po\n6L/FWU/Ar4U/PJh1ivSzS6z3gzKAyylnnPGAnMLM4mO+fyIrYBDDUVhFI2OiCjYK\nZDmmSc3dGzFQIxQWvrj6bYb54MVb1dn0pemmQuOhxuMeAw0ACas/7Ka0Nx6bD4a7\nnaDnQraHAgMBAAECggEAUpXmjHoTRLgrNV5tD3gXSqcwaqveKWYDPB8k16cWWe8C\nSBH7eMtv47tLbBzmaXU1b26wfyaXZUxciQuQZZFC1mCLIy4Y5WKb2+f1L8h6EnVl\n3WAAN26IeA6f+sBXwIEzy3tiamXh7lo8TQhsaoLTT6NaRhZjtmiugqy7ZqGxW6Ld\nevY0fo/RrmbD9pLWPylS0/RR2wYY2O3Slo65WQuGZlu97M9wwl690ClqHjvlMEJz\nhUNxF92Rn4ojg4oJW1BNOUkoSrodLPR64jMXhAJ7JzhGDRYoGhh6EdJ8GE0dsylu\nEsWteEuX8cN+fs0u2ZdRVNFLiwy/WI4S0uHLX3fhuQKBgQDsHpXY5aHGqyD0EMAp\nRGRTsnmwgq7nErr6/d7ztXx3MFnzluBfLsPcxj3fPry0ROmgHBHXGOenihhYhAub\naRs19WIqKRpmRDt8Pl/jihZRij6xp8jZNZytH4zWRn9boIg3zw5olOb77+vx9A9w\nHjhKAKO0P/5BBFPuW1NAlGlTKQKBgQDJP7pqbnbYRf9sgELIrFfBuyT6RgAjA1EQ\nzxuM4JBOTb1fQgWiYhUPITLH5AzGROjbJTrCBKZx1MmNPm6wk9GwHgOa7MZ9Tns6\nkfZIYMLUKW04H2brVGLytATJza/OWitDeYFKJtH3dbPM4SvqQjrHmB7HpoE2/SOG\nWhzwiPkiLwKBgC293xmdorFyBXhCpndYIHd2Y8ymBGwPXNmyxLZBulL8svBVkjHe\nRWNHpETTSotBrmCuD2a0FGyIfB7ptbXtrq/NUa8JN2wIW92916Wk4p35Qhv4fRhX\nInsHWalJDvMZLkphelEYR4cW+4Zr2XHG6PCtHwmUPBUsWXYbiw0/swfBAoGAQKSK\nwYMoA4JAcF6mlQTez2jIkOeJRbXcBTUxWUgMskpASOfRHX652vlD8XcsL0eVMEc+\nH3IU8L1z3D2wmmFw2kxZxhrGCxv5cy/NVyRVkIaaAYv8qBycB++RFi1Oik7mVK8j\nu2jKytzw2x981qtdbB1Nzb2LBdm73nz1jMHCnJsCgYAI2mOXFJodtpzx6cT1HQL7\nriI/SSO/8Hj8YrfVdDdXth8oxDh4RGWv/qJuoqodouF55TFf4J2jJ2rouxajs0uZ\njNomgHedpm4+MoygQ0QCoix3QDJX/nCeo2PKrEkqdTN9zq4IXqs/55x2jnLGxMj9\nDIebBo43s0wDcGfVA4vyjA==\n-----END PRIVATE KEY-----\n",
+    "client_email": "ethical-lens-scanner@ethical-lens-scanner.iam.gserviceaccount.com",
+    "client_id": "109020978105890371971",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ethical-lens-scanner%40ethical-lens-scanner.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
+  

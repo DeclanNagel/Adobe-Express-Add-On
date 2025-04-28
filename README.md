@@ -34,5 +34,14 @@ The detection process works in two stages:
 
 https://youtu.be/DnBTDhrevIE
 
+## private link to project
+
+Note: As with most AI detection tools, there may be occasional false positives or negatives. This project demonstrates a prototype built under hackathon time constraints and is focused on innovation in AI ethics and responsible technology.
+
+https://adobesparkpost.app.link/TR9Mb7TXFLb?mode=private&claimCode=w9kk7mm95:MV09QATG
+
+
+
+
 
 

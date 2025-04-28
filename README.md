@@ -1,8 +1,8 @@
 # Adobe Express Add-On – AI Image Detector
 
 ---
-🏆 **1st Place Winner — AI and Responsibility Award**  
-🏢 **Adobe Express Hackathon 2025**
+**1st Place Winner — AI and Responsibility Award**  
+**Adobe Express Hackathon 2025**
 
 Recognized for excellence in ethical AI design and innovation.
 
